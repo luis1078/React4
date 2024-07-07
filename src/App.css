@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+html,
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
   color: white;
+  background-color: rgb(13, 9, 37);
+  font-family: 'Roboto';
+  margin-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.main-title{
+  color: black;
+  font-size: 25px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin: 20px 0 ; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tasks-app{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-tasks-list{
+  width: 600px;
+  min-height: 500px;
+  background-color: rgba(255, 235, 205, 0.555);
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 25px;
 }
